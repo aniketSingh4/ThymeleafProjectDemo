@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title>Conditional Statement Example</title>
+</head>
+<body>
+	<h1>This page is used for Conditional Statement Example</h1>
+	<h1 >User is <span th:style="${isActive} ? 'color:green' : 'color:red' "
+	th:text="${isActive}?'Active':'Not Active'"></span></h1>
+	
+</body>
+</html>
