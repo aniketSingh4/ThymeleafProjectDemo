@@ -50,5 +50,11 @@ public class ThymeleafController
 	{
 		return "service";
 	}
+	
+	@GetMapping("/demo")
+	public String practise()
+	{
+		return "demo";
+	}
 
 }
